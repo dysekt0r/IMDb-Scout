@@ -7,7 +7,7 @@
 // @require     https://greasyfork.org/libraries/GM_config/20131122/GM_config.js
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
 //
-// @version        4.12.1
+// @version        4.12.2
 // @include        http*://*.imdb.tld/title/tt*
 // @include        http*://*.imdb.tld/search/title*
 // @include        http*://*.imdb.tld/user/*/watchlist*
@@ -349,6 +349,8 @@
 4.12.1  -    Add CCT
         -    Update CHD, AB, TTG
 
+4.12.2  -    Update FL
+
 -------------------------------------------------------*/
 
 //------------------------------------------------------
@@ -495,7 +497,7 @@ var sites = [
       'searchUrl': 'http://ethor.net/browse.php?stype=b&c23=1&c20=1&c42=1&c5=1&c19=1&c25=1&c6=1&c37=1&c43=1&c7=1&c9=1&advcat=0&incldead=0&includedesc=1&search=%tt%',
       'matchRegex': /Try again with a refined search string.|<h1>Note: Vous devez activer vos 'cookies' pour pouvoir vous identifier.<\/h1>/},
   {   'name': 'FL',
-      'searchUrl': 'https://filelist.ro/browse.php?search=%nott%',
+      'searchUrl': 'https://filelist.io/browse.php?search=%nott%',
       'matchRegex': /<h2>Nu s-a găsit nimic!<\/h2>/,
       'both': true},
   {   'name': 'FinVip',
